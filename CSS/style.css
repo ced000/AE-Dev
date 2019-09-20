@@ -1,0 +1,120 @@
+body {
+  background-color: #ccc;
+  padding: 0.3em;
+  max-width: 650px;
+  margin: auto;
+}
+
+.div-center {
+  margin: 0 auto;
+}
+
+#message img {
+  width: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#message {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 45vh;
+  left: 0;
+}
+
+.card {
+  margin-bottom: 0.5rem;
+
+}
+.card-title {
+  margin-left: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
+}
+
+.card img {
+  padding: 0.3em;
+  border-radius: 10px;
+}
+
+#loader {
+  color: #999;
+  margin: 1em;
+  border-radius: 50px;
+  display: none;
+}
+
+.button {
+  position: fixed;
+  top: 90vh;
+  left: 80vw;
+  font-weight: bold;
+  z-index: 3;
+}
+
+span {
+  padding: 0.5em;
+  border: 1.5px #fff solid;
+  border-radius: 50px;
+  transition: 500ms background ease;
+  box-shadow: 8px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+span:hover {
+  background-color: #ddd;
+}
+
+#content-box img{
+  height: 40vh;
+}
+
+#content-box {
+  margin: 0.5em;
+  margin-top: 0;
+  box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card, .card-body {
+  padding-top: 0em;
+  background: #17a2b8;
+  z-index: 1;
+  padding-bottom: 0.1em;
+
+}
+
+.impressions {
+  margin-top: 0;
+  padding: 0.3em;
+}
+
+i.fa-comment, i.fa-chevron-circle-up, i.fa-chevron-circle-down, i.fa-share-square {
+  margin-left: 10px;
+  font-size: 1.2em
+}
+
+.btn {
+  text-decoration: none;
+  color: lightgreen;
+  padding: 0;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropmenu1, .dropmenu2 {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.voteBtn {
+  background-color: lightgreen;
+  border-radius: 50px;
+}
+
+.show {
+  display: block;
+}
